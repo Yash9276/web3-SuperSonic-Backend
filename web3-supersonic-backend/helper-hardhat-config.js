@@ -9,8 +9,10 @@ const networkConfig={
     },
     57054:{
         name:"sonic"
+    },
+    1328:{
+        name:"sei"
     }
-
 }
 const developmentChains=["hardhat","localhost"];
 module.exports={networkConfig,developmentChains,}
