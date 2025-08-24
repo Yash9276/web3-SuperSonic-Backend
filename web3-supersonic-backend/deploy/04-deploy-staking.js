@@ -9,7 +9,7 @@ module.exports=async({getNamedAccounts,deployments})=>{
     const chainId=network.config.chainId
     const Staking=await deploy("Staking",{
         from:deployer,
-        args:["0xeb261920db4C03484eaCC83999EBE525DD30c741"],
+        args:["0x19C846803F690a534BB744174F9672bffFab2E1F"],
         log:true,
         waitConfirmations:network.config.blockConfirmations || 1,
     })

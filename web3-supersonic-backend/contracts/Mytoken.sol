@@ -3,7 +3,7 @@ pragma solidity ^0.8.20;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 contract Mytoken is ERC20 {
-    constructor() ERC20("Beets Stake Sonic", "stS") {
+    constructor() ERC20("Silo", "iSEI") {
     }
      function mint(address to, uint256 amount) external {
         _mint(to, amount);
